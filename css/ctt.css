@@ -9,212 +9,175 @@
 /*config do corpo*/  
 
 body {
-  background-color: #F0F8FF;
+    background-color: #F0F8FF;
 }
 
+
 .bg-primary-color {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .bg-secondary-color {
-  background-color: #ece8e2;
+    background-color: #ece8e2;
 }
 
 .bg-dark-color {
-  background-color: #050505;
+    background-color: #050505;
 }
 
 .primary-color {
-  color: #050505;
+    color: #050505;
 }
 
 .secondary-color {
-  color: #7a7a7a;
+    color: #7a7a7a;
 }
-  
+
+
 /* NAVBAR */
 #navbar {
-  border-bottom: 1px solid #7a7a7a;
-  background-color: #FFD700;
+    border-bottom: 1px solid #7a7a7a;
+    background-color: #FFD700;
 }
 
 #navbar a{
-  color: #050505;
-  font-weight: bold;
+    color: #050505;
+    font-weight: bold;
 }
 
 #navbar a:hover {
-  color: #7a7a7a;
+    color: #7a7a7a;
 }
 
 #navbar-items a:hover {
-  color: #fff;
-  border-bottom: 3px solid #fff;
+    color: #fff;
+    border-bottom: 3px solid #fff;
 }
 
 .navbar-brand {
-  display: flex;
+    display: flex;
 }
 
 .navbar-brand img {
-  width: 50px;
+    width: 50px;
 }
 
 .navbar-brand span {
-  font-weight: 700;
-  font-size: 1.5em;
-  margin-left: 0.5em;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
 }
 
 #navbar-items .navbar-nav {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 #navbar-items .nav-item {
-  margin: 0 1em;
+    margin: 0 1em;
+}
+
+#info-container {
+    margin-top: 150px;
 }
 
 /*dark theme*/
 
 input[type="checkbox"] {
-  display: none;
+    display: none;
 }
 
 #theme-color .bi {
-  font-size: 1.3rem;
-  cursor: pointer;
-  color: brown;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: brown;
 }
 
 .bi-toggle-off {
-  display: none;
+    display: none;
 }
 
-  .dark,
+.dark,
 .dark header h3 {
-  background-color: #263238;
-  color: #000;
+    background-color: #263238;
+    color: #000;
 }
 
 .dark .bi-toggle-on {
-  display: none;
+    display: none;
 }
 
 .dark .bi-toggle-off {
-  display: block;
+    display: block;
 }
 
 .dark .main-title {
-  color: #fff;
+    color: #fff;
 }
 
 .dark .about-title {
-  color: #fff;
+    color: #fff;
 }
 
 .dark #copy-area .container p {
-  color: #fff;
+    color: #fff;
 }
 
 .dark #featured-container .primary-color {
-  color: #fff;
+    color: #fff;
 }
 
 .dark #featured-container .secondary-color {
-  color: #fff;
+    color: #fff;
 }
 
-.dark .offset-md-1 .text-center {
-  background-color: #008000;
-  color: #fff;
+.dark #info-container .col-12 .primary-color {
+    color: #fff;
 }
 
-.dark .card-body h5 {
-  color: #fff;
+.dark #info-container .col-12 .secondary-color {
+    color: #fff;
 }
 
-.dark .card-body p {
-  color: #fff;
+.dark #info-container .bg-secondary-color {
+    background-color: #008000;
 }
 
-/* SLIDER */
-#slider {
-  margin-top: 8em;
-  margin-bottom: 1em;
-}
-
-#slider .carousel-caption {
-  bottom: 3em;
-}
-
-#slider .carousel-caption h5 {
-  font-size: 2.5em;
-  text-shadow: #000 2px 2px;
-}
-
-.btn {
-  border-radius: 0;
-}
-
-#slider .btn {
-  padding: 0.3em 0.8em;
-  font-size: 1em;
-  margin-top: 1em;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-  opacity: 0.7;
-}
-
-.carousel-control-prev i,
-.carousel-control-next i {
-  color: #111;
-  font-size: 3em;
-}
-  
-.carousel-indicators [data-bs-target] {
-  background-color: #222;
-  opacity: 0.8;
-}
-
-.carousel-indicators .active {
-  background-color: #000;
+.dark .bg-secondary-color .title {
+    color: #fff;
 }
 
 /*whats*/
 
 .whatsapp-link {
-  position: fixed;
-  cursor:pointer;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 10px;
-  background-color: #25d366;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 36px;
-  box-shadow: 1px 1px 2px #888;
-  z-index: 1000;
+    position: fixed;
+    cursor:pointer;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 10px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 36px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
 }
 
 .whatsapp-link:hover{
-  color: #fff;
-  filter: drop-shadow(0 0 0.4rem #888);
+    color: #fff;
+    filter: drop-shadow(0 0 0.4rem #888);
 }
   
 .bi-whatsapp {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 .bi-balloon-heart-fill {
   color: #e61e10;
 }
-
   
   @media (min-width: 768px) {
     #slider .carousel-caption {
@@ -268,7 +231,6 @@ input[type="checkbox"] {
   }
   
   /* DESTAQUES */
-
   #featured-container {
     margin-bottom: 4em;
   }
