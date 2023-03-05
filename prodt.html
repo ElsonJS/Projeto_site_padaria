@@ -40,7 +40,7 @@
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
           <div class="container py-3">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./index.html ">
               <img src="img/paes.png" alt="Pão" />
               <span>Panificadora EJS</span>
             </a>
@@ -64,7 +64,7 @@
                   <a class="nav-link" href="./contato.html">Sobre nós</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#team-area">Catálogo</a>
+                    <a class="nav-link" href="#team-area">Produto</a>
                 </li>
               </ul>
               <div id="theme-color">
@@ -74,16 +74,19 @@
                   <i class="bi bi-toggle-off"></i>
                 </label>
               </div>
+              <div class="car" id="car-itens">
+                <a href="#" class="itens"><i class="bi bi-cart4"></i></a>
+              </div>
             </div>
           </div>
         </nav>
         <!-- DESTAQUES -->
         <div id="team-area">
             <div class="container">
-                <form class="cat">
-                    <div class="row">
+                <div class="cat">
+                    <section class="row">
                         <div class="col-12">
-                            <h3 class="main-title">Catálogo da Panificadora EJS</h3>
+                            <h3 class="main-title">Lista de Produtos - Panificadora EJS</h3><br />
                         </div>
                         <div class="col-md-3">
                             <div class="card">
@@ -91,15 +94,14 @@
                                     <img src="./img_prod/Pão doce.jpg" class="card-img-top" alt="Pão de Coco">
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Pão de Coco</h5>
-                                    <button type="reset" class="menos">
-                                        <i class="bi bi-dash"></i>
+                                    <h5 class="product-title">Pão de coco</h5>
+                                    <div style="font-size: 12px; color: #0e5668ce;">
+                                        <p>Preço <span class="product-price">R$1,50</span> un.</p>
+                                    </div>               
+                                    <button type="button" value="Adicionar" class="button-hover-background">
+                                        Adicionar ao Carrinho
                                     </button>
-                                    <input type="number" class="ped" name="paococo" min="1" max="30">
-                                    <button type="submit" class="mais">
-                                        <i class="bi bi-plus-lg"></i>
-                                    </button>                                
-                                    <input type="submit" name="qtdpaococo" class="submitAdd" value="Adicionar">
+                                    <div style="height: 20px;"></div>
                                 </div>
                             </div><br />
                         </div>
@@ -109,15 +111,14 @@
                                     <img src="./img_prod/Pão doce espiral.jpg" class="card-img-top" alt="Pão doce espiral">
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Pão doce</h5>
-                                    <button type="reset" class="menos">
-                                        <i class="bi bi-dash"></i>
+                                    <h5 class="product-title">Pão doce</h5>
+                                    <div style="font-size: 12px; color: #0e5668ce;">
+                                        <p>Preço <span class="product-price">R$1,10</span> un.</p>
+                                    </div>               
+                                    <button type="button" value="Adicionar" class="button-hover-background">
+                                        Adicionar ao Carrinho
                                     </button>
-                                    <input type="number" class="ped" name="paodoce" min="1"  max="30">
-                                    <button type="submit" class="mais">
-                                        <i class="bi bi-plus-lg"></i>
-                                    </button>
-                                    <input type="submit" name="qtdpaodoce" class="submitAdd" value="Adicionar">
+                                    <div style="height: 20px;"></div>
                                 </div>
                             </div><br />
                         </div>
@@ -127,15 +128,14 @@
                                     <img src="./img_prod/Pão francês.jpg" class="card-img-top" alt="Pão francês">
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Pão francês</h5>
-                                    <button type="reset" class="menos">
-                                        <i class="bi bi-dash"></i>
+                                    <h5 class="product-title">Pão francês</h5>
+                                    <div style="font-size: 12px; color: #0e5668ce;">
+                                        <p>Preço <span class="product-price">R$0,80</span> un.</p>
+                                    </div>               
+                                    <button type="button" value="Adicionar" class="button-hover-background">
+                                        Adicionar ao Carrinho
                                     </button>
-                                    <input type="number" class="ped" name="paofrances" min="1"  max="30">
-                                    <button type="submit" class="mais">
-                                        <i class="bi bi-plus-lg"></i>
-                                    </button>
-                                    <input type="submit" name="qtdpaofrances" class="submitAdd" value="Adicionar">
+                                    <div style="height: 20px;"></div>
                                 </div>
                             </div><br />
                         </div>
@@ -145,15 +145,14 @@
                                     <img src="./img_prod/Pão queijo.jpg" class="card-img-top" alt="Pão queijo">
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Pão de queijo</h5>
-                                    <button type="reset" class="menos">
-                                        <i class="bi bi-dash"></i>
+                                    <h5 class="product-title">Pão de queijo</h5>
+                                    <div style="font-size: 12px; color: #0e5668ce;">
+                                        <p>Preço <span class="product-price">R$1,70</span> un.</p>
+                                    </div>               
+                                    <button type="button" value="Adicionar" class="button-hover-background">
+                                        Adicionar ao Carrinho
                                     </button>
-                                    <input type="number" class="ped" name="paoqueijo" min="1"  max="30">
-                                    <button type="submit" class="mais">
-                                        <i class="bi bi-plus-lg"></i>
-                                    </button>
-                                    <input type="submit" name="qtdpaoqueijo" class="submitAdd" value="Adicionar">
+                                    <div style="height: 20px;"></div>
                                 </div>
                             </div><br />
                         </div>
@@ -163,15 +162,14 @@
                                     <img src="./img_prod/Pão sovado.jpg" class="card-img-top" alt="Pão sovado">
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Pão sovado</h5>
-                                    <button type="reset" class="menos">
-                                        <i class="bi bi-dash"></i>
+                                    <h5 class="product-title">Pão sovado</h5>
+                                    <div style="font-size: 12px; color: #0e5668ce;">
+                                        <p>Preço <span class="product-price">R$0,99</span> un.</p>
+                                    </div>               
+                                    <button type="button" value="Adicionar" class="button-hover-background">
+                                        Adicionar ao Carrinho
                                     </button>
-                                    <input type="number" class="ped" name="paosovado" min="1" max="30">
-                                    <button type="submit" class="mais">
-                                        <i class="bi bi-plus-lg"></i>
-                                    </button>
-                                    <input type="submit" name="qtdpaosovado" class="submitAdd" value="Adicionar">
+                                    <div style="height: 20px;"></div>
                                 </div>
                             </div><br />
                         </div>
@@ -181,15 +179,14 @@
                                     <img src="./img_prod/CROISSANTS.jpg" class="card-img-top" alt="Croissants">
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Salgado Croissants</h5>
-                                    <button type="reset" class="menos">
-                                        <i class="bi bi-dash"></i>
+                                    <h5 class="product-title">Salgado Croissants</h5>
+                                    <div style="font-size: 12px; color: #0e5668ce;">
+                                        <p>Preço <span class="product-price">R$5,99</span> un.</p>
+                                    </div>               
+                                    <button type="button" value="Adicionar" class="button-hover-background">
+                                        Adicionar ao Carrinho
                                     </button>
-                                    <input type="number" class="ped" name="croissants" min="1" max="30">
-                                    <button type="submit" class="mais">
-                                        <i class="bi bi-plus-lg"></i>
-                                    </button>
-                                    <input type="submit" name="qtdcroissants" class="submitAdd" value="Adicionar">
+                                    <div style="height: 20px;"></div>
                                 </div>
                             </div><br />
                         </div>
@@ -199,15 +196,14 @@
                                     <img src="./img_prod/coxinha.jpg" class="card-img-top" alt="Coxinha">
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Salgado Coxinha de Frango</h5>
-                                    <button type="reset" class="menos">
-                                        <i class="bi bi-dash"></i>
+                                    <h5 class="product-title">Coxinha de Frango</h5>
+                                    <div style="font-size: 12px; color: #0e5668ce;">
+                                        <p>Preço <span class="product-price">R$6,99</span> un.</p>
+                                    </div>               
+                                    <button type="button" value="Adicionar" class="button-hover-background">
+                                        Adicionar ao Carrinho
                                     </button>
-                                    <input type="number" class="ped" name="coxinha" min="1" max="30">
-                                    <button type="submit" class="mais">
-                                        <i class="bi bi-plus-lg"></i>
-                                    </button>
-                                    <input type="submit" name="qtdcoxinha" class="submitAdd" value="Adicionar">
+                                    <div style="height: 20px;"></div>
                                 </div>
                             </div><br />
                         </div>
@@ -217,15 +213,14 @@
                                     <img src="./img_prod/salgado de carne.jpg" class="card-img-top" alt="salgado de carne">
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Salgado de Carne</h5>
-                                    <button type="reset" class="menos">
-                                        <i class="bi bi-dash"></i>
+                                    <h5 class="product-title">Salgado de Carne</h5>
+                                    <div style="font-size: 12px; color: #0e5668ce;">
+                                        <p>Preço <span class="product-price">R$5,99</span> un.</p>
+                                    </div>               
+                                    <button type="button" value="Adicionar" class="button-hover-background">
+                                        Adicionar ao Carrinho
                                     </button>
-                                    <input type="number" class="ped" name="sgdcarne" min="1" max="30">
-                                    <button type="submit" class="mais">
-                                        <i class="bi bi-plus-lg"></i>
-                                    </button>
-                                    <input type="submit" name="qtdsgdcarne" class="submitAdd" value="Adicionar">
+                                    <div style="height: 20px;"></div>
                                 </div>
                             </div><br />
                         </div>
@@ -235,15 +230,14 @@
                                     <img src="./img_prod/torta de oreo.jpg" class="card-img-top" alt="torta de oreo">
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Torta de Oreo</h5>
-                                    <button type="reset" class="menos">
-                                        <i class="bi bi-dash"></i>
+                                    <h5 class="product-title">Torta de Oreo</h5>
+                                    <div style="font-size: 12px; color: #0e5668ce;">
+                                        <p>Preço <span class="product-price">R$69,99</span> un.</p>
+                                    </div>               
+                                    <button type="button" value="Adicionar" class="button-hover-background">
+                                        Adicionar ao Carrinho
                                     </button>
-                                    <input type="number" class="ped" name="tortaoreo" min="1" max="30">
-                                    <button type="submit" class="mais">
-                                        <i class="bi bi-plus-lg"></i>
-                                    </button>
-                                    <input type="submit" name="qtdtortaoreo" class="submitAdd" value="Adicionar">
+                                    <div style="height: 20px;"></div>
                                 </div>
                             </div><br />
                         </div>
@@ -253,15 +247,14 @@
                                     <img src="./img_prod/torta de morango.jpg" class="card-img-top" alt="torta de morango">
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Torta de Morango</h5>
-                                    <button type="reset" class="menos">
-                                        <i class="bi bi-dash"></i>
+                                    <h5 class="product-title">Torta de Morango</h5>
+                                    <div style="font-size: 12px; color: #0e5668ce;">
+                                        <p>Preço <span class="product-price">R$59,99</span> un.</p>
+                                    </div>               
+                                    <button type="button" value="Adicionar" class="button-hover-background">
+                                        Adicionar ao Carrinho
                                     </button>
-                                    <input type="number" class="ped" name="tortamorango" min="1" max="30">
-                                    <button type="submit" class="mais">
-                                        <i class="bi bi-plus-lg"></i>
-                                    </button>
-                                    <input type="submit" name="qtdtortamorango" class="submitAdd" value="Adicionar" max="30">
+                                    <div style="height: 20px;"></div>
                                 </div>
                             </div><br />
                         </div>
@@ -271,15 +264,14 @@
                                     <img src="./img_prod/Mini Bolo de Chocolate.jpg" class="card-img-top" alt="Mini Bolo de Chocolate">
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Mini Bolo de Chocolate</h5>
-                                    <button type="reset" class="menos">
-                                        <i class="bi bi-dash"></i>
+                                    <h5 class="product-title">Mini Bolo de Chocolate</h5>
+                                    <div style="font-size: 12px; color: #0e5668ce;">
+                                        <p>Preço <span class="product-price">R$39,99</span> un.</p>
+                                    </div>               
+                                    <button type="button" value="Adicionar" class="button-hover-background">
+                                        Adicionar ao Carrinho
                                     </button>
-                                    <input type="number" class="ped" name="miniblchocolate" min="1" max="30">
-                                    <button type="submit" class="mais">
-                                        <i class="bi bi-plus-lg"></i>
-                                    </button>
-                                    <input type="submit" name="qtdminiblchocolate" class="submitAdd" value="Adicionar">
+                                    <div style="height: 20px;"></div>
                                 </div>
                             </div><br />
                         </div>
@@ -288,22 +280,55 @@
                                 <a href="#">                      
                                     <img src="./img_prod/guarana.jpg" class="card-img-top" alt="Refrigerante Guaraná 2 Litros">
                                 </a>
-                                <div class="card-body" id="bnt-add">
-                                    <h5 class="card-title">Refrigerante Guaraná 2 Litros</h5>
-                                    <button type="reset" class="menos">
-                                        <i class="bi bi-dash"></i>
+                                <div class="card-body">
+                                    <h5 class="product-title">Refrigerante Guaraná</h5>
+                                    <div style="font-size: 12px; color: #0e5668ce;">
+                                        <p>Preço <span class="product-price">R$11,99</span> 2l</p>
+                                    </div>               
+                                    <button type="button" value="Adicionar" class="button-hover-background">
+                                        Adicionar ao Carrinho
                                     </button>
-                                    <input type="number" class="ped" name="guarana2litros" min="1" max="30">
-                                    <button type="submit" class="mais">
-                                        <i class="bi bi-plus-lg"></i>
-                                    </button>
-                                    <input type="submit" name="qtdguarana2litros" class="submitAdd" value="Adicionar">
+                                    <div style="height: 20px;"></div>
                                 </div>
-                            </div>
-                        </div><br />
-                    </div>
-                </form>    
+                            </div><br /><br />
+                        </div>
+                    </section>
+                </div>    
             </div>
+        </div><br />
+
+        <div style="border: 0.3px solid #c0c0c0; width: 100%;"></div><br />
+        <!--Carrinho-->
+        <div class="container" id="featured-container">
+            <section class="container normal-section">
+                <div>
+                    <h2 class="section-title">Carrinho <i class="bi bi-cart4"></i></h2>
+                </div>
+        
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <td class="table-head-item first-col" style="font-weight: bold;">Item</td>
+                            <td class="table-head-item second-col" style="font-weight: bold;">Preço</td>
+                            <td class="table-head-item third-col" style="font-weight: bold;">Quantidade</td>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+                    </tbody>
+            
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" class="cart-total-container">
+                                <strong>Total</strong>
+                                <span>R$0,00</span>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+        
+                <button type="button" class="purchase-button">Finalizar Compra</button>
+            </section><br /><br />
         </div>
         <!-- whats flutuante -->
         <div class="popup">

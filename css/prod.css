@@ -31,6 +31,7 @@ body {
 .secondary-color {
   color: #7a7a7a;
 }
+
   
 /* NAVBAR */
 #navbar {
@@ -74,6 +75,21 @@ body {
 
 #navbar-items .nav-item {
   margin: 0 1em;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+#car-itens {
+  position: relative;
+  display: flex;
+  left: 30px;
+}
+
+#car-itens .itens {
+  font-size: 25px;
+  color: brown;
 }
 
 /*dark theme*/
@@ -139,6 +155,10 @@ input[type="checkbox"] {
   color: #fff;
 }
 
+.dark #featured-container {
+  color: #fff;
+}
+
 /* produtos */
 
 #team-area .container .cat {
@@ -146,63 +166,117 @@ input[type="checkbox"] {
 }
 
 .container .cat .ped {
-    width: 35px;
+    width: 60px;
     height: 30px;
     outline: none;
     border-color: #b8e7b8;
 }
 
-.card-body .menos {
-    border-color: #e61e10;
-    text-align: center;
-    transition: all ease 0.3s;
+.card-body .button-hover-background {
+  height: 30px; 
+  color: #fff; 
+  background-color: green; 
+  border: #fff; 
+  left: 15px;
+  margin-top: -5px;
+  position: absolute;
+  border-radius: 5px;
+  transition: all ease 0.3s;
 }
 
-.card-body .bi-dash {
-    color: #e61e10;
-    font-weight: bolder;
-    cursor: pointer;
-    transition: all ease 0.3s;
+/*Carrinho*/
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.card-body .bi-dash:hover {
-    filter: drop-shadow(0 0 0.4rem #e61e10);
+.table-head-item {
+  text-align: start;
+  border-bottom: 1px solid #858585;
+  padding-bottom: 6px;
+  text-transform: uppercase;
 }
 
-.card-body .menos:hover {
-    filter: drop-shadow(0 0 0.4rem #e61e10);
+.second-col,
+.third-col {
+  width: 26%;
 }
 
-.card-body .mais {
-    border-color: green;
-    text-align: center;
-    transition: all ease 0.3s;
+.cart-product td {
+  padding: 8px 0;
 }
 
-.card-body .bi-plus-lg {
-    color: green;
-    font-weight: bolder;
-    cursor: pointer;
-    transition: all ease 0.3s;
+.product-identification {
+  display: flex;
+  align-items: center;
 }
 
-.card-body .bi-plus-lg:hover {
-    filter: drop-shadow(0 0 0.4rem #21e721);
+.cart-product-image {
+  width: 25%;
 }
 
-.card-body .mais:hover {
-    filter: drop-shadow(0 0 0.4rem #21e721);
+.cart-product-title {
+  margin-left: 16px;
+  font-size: 18px;
 }
 
-.card-body .submitAdd {
-    height: 30px; 
-    color: #fff; 
-    background-color: green; 
-    border: #fff; 
-    left: 130px; 
-    position: absolute;
-    border-radius: 5px;
-    transition: all ease 0.3s;
+.cart-product-price {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-qtd-input {
+  width: 48px;
+  height: 34px;
+  border-radius: 6px;
+  border: 2px solid #2c2cf7;
+  text-align: center;
+  background: #eee;
+}
+
+.remove-product-button {
+  margin-left: 12px;
+  background-color:  #ff0000;
+  color: #fff;
+  padding: 10px 5px;
+  border: 0;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: filter 0.2s;
+}
+
+.remove-product-button:hover {
+  filter: brightness(0.8);
+}
+
+.cart-total-container {
+  border-top: 1px solid #858585;
+  text-align: end;
+  padding: 6px 16px 0 0;
+  font-size: 18px;
+}
+
+.cart-total-container strong {
+  margin-right: 12px;
+}
+
+.purchase-button {
+  display: flex;
+  margin: 24px auto 0;
+  background-color: #008000;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  transition: filter 0.2s;
+}
+
+.purchase-button:hover {
+  filter: brightness(0.8);
 }
 
 /*whats*/
@@ -336,20 +410,9 @@ input[type="checkbox"] {
     #links-container {
         padding-left: 2em;
     }
-
-    .card-body .submitAdd {
-        height: 30px; 
-        color: #fff; 
-        background-color: green; 
-        border: #fff; 
-        left: 110; 
-        position: absolute;
-        border-radius: 5px;
-        transition: all ease 0.3s;
-    }
     
-    .card-body .submitAdd:hover {
-        background-color: rgb(78, 221, 78);
-        color: #000;
+    .card-body .button-hover-background:hover {
+        background-color: rgb(35, 80, 35);
+        color: #fff;
     }
 }
